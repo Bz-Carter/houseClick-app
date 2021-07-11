@@ -2,6 +2,7 @@
   "name": "house-click-app",
   "version": "0.1.0",
   "dependencies": {
+    "apollo-server-express": "^2.25.2",
     "body-parser": "^1.19.0",
     "express": "4.17.1",
     "graphql": "^15.5.1"
