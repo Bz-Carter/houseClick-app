@@ -1,11 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { Listings } from "./sections";
 import reportWebVitals from './reportWebVitals';
 
 render(
-  <React.StrictMode>
-    <div>Hello World !</div>
-  </React.StrictMode>,
+  <Listings title="House-Click Listing" />, 
   document.getElementById('root')
 );
 
